@@ -1,5 +1,4 @@
 #include <iostream> // Включає функції
-#include <windows.h> // Підключає SetConsoleCP та SetConsoleOutputCP
 #include <string> // Дає змогу працювати з масивами через string
 #include <locale.h> // Включає функцію setlocale
 
@@ -7,9 +6,6 @@ using namespace std; // Дозволяє групувати std, щоб не п�
 
 int main()
 {
-    SetConsoleCP(1251); // Для введення
-    SetConsoleOutputCP(1251); // Для виведення
-
     setlocale(LC_ALL, "uk_UA"); // Підключає Українську мову
 
     int N;
